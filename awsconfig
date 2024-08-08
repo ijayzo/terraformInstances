@@ -1,0 +1,6 @@
+[default]
+region = us-east-1
+output = text
+[profile terraform-runner]
+region = us-east-1
+output = text
