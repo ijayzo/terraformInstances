@@ -20,7 +20,7 @@ Copy that token as it will be used for connecting your local machine to your git
 @LocalMachine(using RHEL) 
 
 Please have AWS CLI installed on your machine and configured to your AWS account with the *aws configure* command and your AWS user credentials.
-	To set up Profiles, update your ~/.aws/config file to look like the file that is name awsconfig on the home dir of this repo. 
+	To set up Profiles, update your ~/.aws/config file to look like the file that is named awsconfig on the home dir of this repo. 
 
 (optional) To set up Git
 	mkdir <repo>
