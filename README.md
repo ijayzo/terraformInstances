@@ -62,3 +62,4 @@ profiles used: terraform-runner
 To be fixed
 
 	count.index
+	adding the Public IPv4 DNS of the instances created to the outputs
