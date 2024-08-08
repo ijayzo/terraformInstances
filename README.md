@@ -45,9 +45,9 @@ Once you have the tf files configured and you have terraform installed on your m
 	terraform apply
 		will ask for user input.
 	Once isntance(s) is/are running, run the following command to ssh into the instance 
-		ssh -i <absolute path for the key file, same name gived as input while doing the terraform apply>
+		ssh -i <absolute path for the key file, same name given as input while doing the terraform apply> ec2-user@<public ipv4 dns found on aws instance console> 
 	The folder named script in this repo holds a script that is to be copied onto the instance and run on the instance.
-		it will show some info of the isntance and the script will also pull and run and/or start a nginx container with name nginx-1. The script will also allow for the change of the first header value. 
+		it will show some info of the isntance and the script will also pull and run and/or start a nginx container with name nginx-1. The script will also allow for the change of the first header value in the index file (changes whhat the "home" page for the nginx server displays).
  
 ------------
 @TerraformFiles
