@@ -13,7 +13,9 @@ Once the Instance is created, grab the Public IPv4 DNS.
 @GitHub
 
 Create a repo on web 
+
 Go to settings and create a token with all permissions
+
 Copy that token as it will be used for connecting your local machine to your git repos.
 
 ------------
@@ -23,11 +25,10 @@ Please have AWS CLI installed on your machine and configured to your AWS account
 	To set up Profiles, update your ~/.aws/config file to look like the file that is named awsconfig on the home dir of this repo. 
 
 (optional) To set up Git
-	mkdir <localDir>
-		name of dir that will hold the git repos
-	cd <localDir>
+	mkdir <repo>
+		name of repo on local machine, can be called diff from repo on git
+	cd <repo>
 	git clone <url of git repo>
-		will create a directory with the name of your git repo under the localDir directory
 	git remote set-url origin https://<token>@github.com/<username>/<repo>
 		username and repo here are the names found on github.com
 	git add .
