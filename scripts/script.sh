@@ -1,8 +1,9 @@
 #!
+sudo dnf install podman -y
 podman pull nginx 
-sleep 5
+sleep 10
 podman run -dt -p 8080:80/tcp --name nginx-1 nginx
-sleep 5
+sleep 10 
 podman start nginx-1
 podman inspect nginx-1
 echo "------------------------------------"
