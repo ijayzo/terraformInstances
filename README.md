@@ -61,6 +61,8 @@ Running terraform apply will ask for a file name to create a PEM file in the wor
 profiles used: terraform-runner
 	Please look at @LocalMachine section for more details.
 
+update the tfvars file with appropriate setup. *.auto.tfvars has precedence over both terraform.tfvars and variables.tf files.
+
 ------------
 To be fixed
 
