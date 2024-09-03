@@ -10,7 +10,7 @@ Create a User
 Once the Instance is created, grab the Public IPv4 DNS.
 
 ------------
-@GitHub
+@GitHub (optional)
 
 Create a repo on web 
 
@@ -25,10 +25,11 @@ Please have AWS CLI installed on your machine and configured to your AWS account
 	To set up Profiles, update your ~/.aws/config file to look like the file that is named awsconfig on the home dir of this repo. 
 
 (optional) To set up Git
-	mkdir <repo>
+	mkdir <local "repo" name>
 		name of repo on local machine, can be called diff from repo on git
-	cd <repo>
+	cd <"repo">
 	git clone <url of git repo>
+	cd <cloned repo>
 	git remote set-url origin https://<token>@github.com/<username>/<repo>
 		username and repo here are the names found on github.com
 	git add .
